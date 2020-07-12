@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link href="resources/css/Style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div class="calc">
+    <h1>Calculator</h1>
+
+    <input type="number" class="field" id="main_field" th:placeholder="${result}" maxlength="9">
+
+    <div>
+        <button id="btn_one">1</button>
+        <button id="btn_two">2</button>
+        <button id="btn_three">3</button>
+        <button id="btn_addition">+</button>
+    </div>
+
+    <div>
+        <button id="btn_four">4</button>
+        <button id="btn_five">5</button>
+        <button id="btn_six">6</button>
+        <button id="btn_subtraction">-</button>
+    </div>
+
+    <div>
+        <button id="btn_seven">7</button>
+        <button id="btn_eight">8</button>
+        <button id="btn_nine">9</button>
+        <button id="btn_multiplication">*</button>
+    </div>
+
+    <div>
+        <button id="btn_zero">0</button>
+        <button id="btn_reset">C</button>
+        <button id="btn_equals">=</button>
+        <button id="btn_division">/</button>
+    </div>
+
+</div>
+
+<script src="resources/js/calcScript.js"></script>
+</body>
+</html>
