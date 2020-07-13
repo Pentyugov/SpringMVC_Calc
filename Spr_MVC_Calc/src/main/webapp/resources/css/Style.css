@@ -33,8 +33,6 @@ h1 {
     margin: 0px auto;
 }
 
-
-
 .main {
     display: block;
     margin: 200px auto;
@@ -51,10 +49,12 @@ h1 {
     color: brown
 
 }
+
 .main button:hover {
     background-color: brown;
     color: aliceblue;
 }
+
 .main a {
     text-decoration: none;
 }

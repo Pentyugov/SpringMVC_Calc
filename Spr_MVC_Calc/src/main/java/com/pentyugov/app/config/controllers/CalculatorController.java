@@ -17,8 +17,7 @@ public class CalculatorController {
                              Model model
                              ){
         try {
-            Calculator calculator = new Calculator(a, b, action);
-            model.addAttribute("result", calculator.calculate());
+            model.addAttribute("result", new Calculator(a, b, action).calculate());
         }
         catch (NumberFormatException e) {
             model.addAttribute("result", 0);
